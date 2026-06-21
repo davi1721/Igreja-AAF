@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igreja AAF — Viva o Propósito</title>
+  <meta name="description" content="Uma igreja moderna, acolhedora e cheia de vida. Venha nos conhecer." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/@phosphor-icons/web@2.0.3/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">
+        <span class="nav__logo-text">IGREJA AAF</span>
+      </a>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#inicio" class="nav__link">Início</a></li>
+        <li><a href="#sobre" class="nav__link">Nossa Essência</a></li>
+        <li><a href="#cultos" class="nav__link">Cultos</a></li>
+        <li><a href="#ministerios" class="nav__link">Ministérios</a></li>
+        <li><a href="#eventos" class="nav__link">Eventos</a></li>
+        <li><a href="#doacoes" class="nav__link nav__link--cta">Doar</a></li>
+        <li><a href="#contato" class="nav__link">Contato</a></li>
+        <li><a href="#localizacao" class="nav__link">Onde Estamos</a></li>
+      </ul>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__bg" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(10,10,10,1)), url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=1920');"></div>
+      
+      <div class="hero__content container">
+        <span class="hero__eyebrow reveal">BEM-VINDO À NOSSA FAMÍLIA</span>
+        <h1 class="hero__title reveal">VIVENDO POR AQUELE QUE É<br>ETERNO</h1>
+        <p class="hero__subtitle reveal">Encontre um lugar de recomeço, fé viva e comunidade autêntica para cumprir o seu propósito.</p>
+        <div class="hero__actions reveal">
+          <a href="#sobre" class="btn btn--primary">Conheça Nossa História</a>
+          <a href="#cultos" class="btn btn--outline">Assista Ao Vivo <i class="ph ph-broadcast"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre section" id="sobre">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__eyebrow">Nossa Liderança</span>
+        <h2 class="section__title">Nossa História & Valores</h2>
+      </div>
+
+      <div class="tab-panel__media">
+  <div class="video-wrapper">
+    <iframe 
+      src="video 1.mp4" 
+      title="Vídeo da Aba" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+        <div class="reveal">
+          <h3 style="font-family: var(--font-display); font-size: 2rem; margin-bottom: 1.5rem;">Pastores Presidentes</h3>
+          <p style="color: var(--text-muted); margin-bottom: 1.2rem; font-size: 1.05rem;">
+            Nascemos com o desejo ardente de acolher pessoas e pregar a verdade do Evangelho de forma simples, relevante e profundamente transformadora. Nossa missão é conectar corações a Deus e desenvolver relacionamentos saudáveis através de comunidade e liderança apaixonada pelo Reino.
+          </p>
+          <p style="color: var(--text-muted); font-size: 1.05rem;">
+            Expandimos barreiras mantendo sempre a nossa essência principal: ser uma família viva que cuida de cada indivíduo de perto.
+          </p>
+        </div>
+      </div>
+
+      <div class="pregação-video reveal" style="margin-top: 6rem;">
+        <div class="video-container__header">
+          <i class="ph ph-film-strip"></i>
+          <div>
+            <h3>Última Mensagem</h3>
+            <p>Assista à última pregação do nosso Pastor e seja edificado.</p>
+          </div>
+        </div>
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/" 
+            title="Pregação Pastor" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <section class="cultos section" id="cultos">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Programação</span>
+          <h2 class="section__title">Nossos Cultos Semanais</h2>
+        </div>
+
+        <div class="cultos__grid">
+          <div class="culto-card reveal">
+            <span class="culto-card__time">DOM — 09H & 19H</span>
+            <h3>Culto da Família</h3>
+            <p>O momento principal da nossa semana focado em louvor imersivo e palavra prática.</p>
+          </div>
+          <div class="culto-card reveal featured">
+            <span class="culto-card__time">SEX — 20H</span>
+            <h3>Culto Sendos Libertos Átraves do Espirito Santo</h3>
+            <p>Uma atmosfera intensa projetada para conectar a nova geração ao coração de Deus.</p>
+          </div>
+          <div class="culto-card reveal">
+            <span class="culto-card__time">TER — 20H</span>
+            <h3>Culto Buscando Poder</h3>
+            <p>Uma noite de profunda intercessão e busca contínua pela presença do Espírito Santo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ministerios section" id="ministerios">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Conexão</span>
+          <h2 class="section__title">Um lugar para todos</h2>
+        </div>
+
+        <div class="ministerios__grid">
+          <div class="min-card reveal">
+            <i class="ph ph-baby"></i>
+            <h3>Igreja</h3>
+            <p>Ambiente seguro e divertido para as crianças aprenderem sobre o amor de Deus de forma lúdica.</p>
+          </div>
+          <div class="min-card reveal">
+            <i class="ph ph-lightning"></i>
+            <h3>VPE mission</h3>
+            <p>Movimento focado em identidade, santidade e impacto cultural para a juventude.</p>
+          </div>
+          <div class="min-card reveal">
+            <i class="ph ph-users-three"></i>
+            <h3>GC's (Células)</h3>
+            <p>Nossa igreja nas casas. Onde a comunhão acontece e os laços de amizade se fortalecem.</p>
+          </div>
+          <div class="min-card reveal">
+            <i class="ph ph-infinity"></i>
+            <h3>Ação Social</h3>
+            <p>Servindo a nossa comunidade local com apoio prático, doações e cuidado social.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="eventos section" id="eventos">
+      <div class="container">
+        
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Fique por Dentro</span>
+          <h2 class="section__title">Avisos & Vida da Igreja</h2>
+        </div>
+
+        <div class="tabs-container reveal">
+          <div class="tabs__nav">
+            <button class="tab-btn active" data-tab="avisos-gerais">Avisos da Semana</button>
+            <button class="tab-btn" data-tab="culto-jovens">Culto de Jovens</button>
+            <button class="tab-btn" data-tab="conferencias">Conferências</button>
+          </div>
+
+          <div class="tabs__content">
+            
+            <div class="tab-panel active" id="avisos-gerais">
+              <div class="tab-panel__layout">
+                <div class="tab-panel__text">
+                  <h3>Mural de Novidades</h3>
+                  <p>Fique atento à nossa programação e aos comunicados importantes para a nossa comunidade nesta semana. Participe ativamente dos nossos momentos!</p>
+                  <ul class="bullet-list">
+                    <li><i class="ph ph-check-circle"></i> Campanha de Agasalhos: Deixe sua doação no hall central até o próximo domingo.</li>
+                    <li><i class="ph ph-check-circle"></i> Reunião de Líderes e Diáconos: Sábado às 16h no auditório secundário.</li>
+                    <li><i class="ph ph-check-circle"></i> Batismo nas Águas: Inscrições abertas na secretaria ou no app.</li>
+                  </ul>
+                </div>
+                <div class="tab-panel__media">
+                  <img src="https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=800" alt="Avisos semanais" class="tab-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="culto-jovens">
+              <div class="tab-panel__layout">
+                <div class="tab-panel__text">
+                  <h3>Culto VPE</h3>
+                  <p>Em alguns sábado marcados às 20H, nossa juventude se reúne para um período intenso de adoração, palavra relevante e conexões reais. Não fique de fora!</p>
+                  <ul class="bullet-list">
+                    <li><i class="ph ph-lightning"></i> Atmosfera Única: Louvor imersivo feito por e para jovens.</li>
+                    <li><i class="ph ph-hash"></i> Conexão Pós-Culto: Espaço de comunhão com lanchonete e música.</li>
+                  </ul>
+                  <a href="https://www.instagram.com/" target="_blank" class="btn btn--outline" style="margin-top: 1.5rem; padding: 0.8rem 1.8rem;">Siga o Insta dos Jovens</a>
+                </div>
+                <div class="tab-panel__media">
+                  <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800" alt="Culto de Jovens" class="tab-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="conferencias">
+              <div class="tab-panel__layout">
+                <div class="tab-panel__text">
+                  <h3>Conferência AAF</h3>
+                  <span class="badge" style="margin-bottom: 1rem; display: inline-block;">Inscrições Abertas</span>
+                  <p>Prepare-se para os dias mais marcantes do nosso ano. Preletores nacionais e internacionais, workshops exclusivos e noites de profunda busca espiritual.</p>
+                  <p><strong>Data:</strong> ****** de 2026<br><strong>Local:</strong> IGREJA AAF</p>
+                  <a href="#" class="btn btn--primary" style="margin-top: 1.5rem; padding: 0.8rem 1.8rem;">Garantir Minha Vaga <i class="ph ph-arrow-right"></i></a>
+                </div>
+                <div class="tab-panel__media">
+                  <img src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=800" alt="Conferência de Igreja" class="tab-img" />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="doacoes section" id="doacoes">
+      <div class="container grid-two-cols">
+        <div class="reveal">
+          <span class="section__eyebrow">Generosidade</span>
+          <h2 class="section__title">Apoie esta obra e expanda o Reino</h2>
+          <p class="section__paragraph">Sua contribuição voluntária financia projetos missionários urbanos, a manutenção do templo e o suporte continuado a centenas de famílias vulneráveis.</p>
+        </div>
+        <div class="donation-box reveal">
+          <div class="donation-method">
+            <i class="ph ph-qr-code"></i>
+            <div>
+              <h3>Chave PIX</h3>
+              <p class="highlight-text">pix@.com.br</p>
+            </div>
+          </div>
+          <div class="donation-method">
+            <i class="ph ph-bank"></i>
+            <div>
+              <h3>Conta Bancária</h3>
+              <p>Banco Bradesco • Ag: 1234 • C/C: 56789-0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato section" id="contato">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Fale Conosco</span>
+          <h2 class="section__title">Estamos prontos para te ouvir</h2>
+        </div>
+        <form class="contact-form reveal">
+          <div class="form-group">
+            <input type="text" placeholder="Seu Nome Completo" required />
+            <input type="email" placeholder="Seu Melhor E-mail" required />
+          </div>
+          <textarea placeholder="Como podemos te ajudar ou orar por você?" rows="5" required></textarea>
+          <button type="submit" class="btn btn--primary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <section class="localizacao section" id="localizacao">
+      <div class="container grid-two-cols" style="align-items: center; gap: 4rem;">
+        
+        <div class="reveal">
+          <span class="section__eyebrow">Venha nos Visitar</span>
+          <h2 class="section__title">Nossa Localização</h2>
+          <p class="section__paragraph">Estamos de braços abertos para receber você e sua família. Confira nosso endereço oficial abaixo e planeje sua visita para o próximo culto!</p>
+          
+          <div style="margin: 2rem 0; color: var(--text-muted); font-size: 1.1rem; display: flex; flex-direction: column; gap: 1rem;">
+            <p style="display: flex; align-items: center; gap: 10px; color: var(--text-primary); margin: 0;">
+              <i class="ph ph-map-pin" style="color: var(--text-primary); font-size: 1.4rem;"></i>
+              <strong>Endereço da Igreja:</strong>
+            </p>
+            <p style="margin: 0; padding-left: 2rem;">Av. Nome da Avenida, 123 — Bairro<br>Cidade - SP • CEP: 00000-000</p>
+          </div>
+
+          <a href="https://maps.google.com" target="_blank" class="btn btn--primary" style="margin-top: 1rem;">
+            <i class="ph ph-navigation-arrow"></i>
+            Como Chegar via Google Maps
+          </a>
+        </div>
+
+        <div class="reveal">
+          <img src="https://images.unsplash.com/photo-1438032005730-c779502df39b?q=80&w=800" 
+               alt="Fachada da Lagoinha Church" 
+               style="width: 100%; border-radius: 12px; border: 1px solid var(--border-color); object-fit: cover; height: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+        </div>
+
+      </div>
+    </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      
+      <div class="footer__brand reveal">
+        <h3 class="nav__logo-text">IGREJA AAF</h3>
+        <p>Uma igreja viva para um Deus vivo. Venha fazer parte da nossa família e viva o seu propósito de perto.</p>
+      </div>
+
+      <div class="footer__links reveal">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Nossa Essência</a></li>
+          <li><a href="#cultos">Cultos</a></li>
+          <li><a href="#ministerios">Ministérios</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__social reveal">
+        <h4>Conecte-se Conosco</h4>
+        <div class="social-grid">
+          
+          <a href="https://www.instagram.com/igreja_aaf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-box insta" target="_blank">
+            <i class="ph ph-instagram-logo"></i>
+            <span>Instagram</span>
+          </a>
+
+          <a href="https://www.youtube.com/@amoradoracaoemfamilia" class="social-box youtube" target="_blank">
+            <i class="ph ph-youtube-logo"></i>
+            <span>YouTube</span>
+          </a>
+
+          <a href="https://www.tiktok.com/@igrejaaaf?is_from_webapp=1&sender_device=pc" class="social-box tiktok" target="_blank">
+            <i class="ph ph-tiktok-logo"></i>
+            <span>TikTok</span>
+          </a>
+
+          <a href="https://wa.me/5511999999999" class="social-box whatsapp" target="_blank">
+            <i class="ph ph-whatsapp-logo"></i>
+            <span>WhatsApp</span>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom container">
+      <p>© 2026 Igreja AAF. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre a igreja." 
+     class="whatsapp-flutuante" 
+     target="_blank" 
+     aria-label="Falar no WhatsApp">
+    <i class="ph ph-whatsapp-logo"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
